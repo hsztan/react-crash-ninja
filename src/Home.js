@@ -1,11 +1,9 @@
-import { useEffect, useState } from "react";
-import BlogList from "./BlogList";
-import Spinner from "./components/Spinner";
-import useFetch from "./useFetch";
+import BlogList from './BlogList'
+import Spinner from './components/Spinner'
+import useFetch from './useFetch'
 
 const Home = () => {
-  const [url, setUrl] = useState("http://localhost:8000/blogs");
-  const { data, isPending, error } = useFetch(url);
+  const { data, isPending, error } = useFetch('http://localhost:8000/blogs')
 
   return (
     <div className="home">
@@ -13,7 +11,7 @@ const Home = () => {
       {isPending && <Spinner />}
       {data && <BlogList blogs={data} title="All Blogs" />}
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

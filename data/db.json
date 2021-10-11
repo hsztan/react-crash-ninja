@@ -11,6 +11,30 @@
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti eum animi, explicabo ad commodi officia asperiores distinctio natus repudiandae eos eaque assumenda maxime quibusdam sunt modi non consectetur necessitatibus, culpa possimus doloremque obcaecati illum. Earum aliquid a placeat molestiae tenetur deserunt, soluta accusamus repellendus magnam quibusdam ullam voluptate magni hic recusandae dolore? Nulla aperiam unde ex provident libero impedit blanditiis eaque mollitia omnis tempora, voluptatem sapiente debitis voluptas, officiis in dignissimos iure repudiandae saepe hic quis cumque placeat excepturi enim aliquid. Similique impedit nihil aliquid nam, sit illum porro quibusdam delectus facere! Maxime nam minus consequatur, in quam voluptate.",
       "author": "Yoshi",
       "id": 2
+    },
+    {
+      "title": "A fetch post blog",
+      "body": "This blog has been sent using the fetch API with the POST method.",
+      "author": "yoshi",
+      "id": 3
+    },
+    {
+      "title": "A pending blog",
+      "body": "This will pend until not pending, maybe will disable button?",
+      "author": "yoshi",
+      "id": 4
+    },
+    {
+      "title": "Going back",
+      "body": "This should make me go back one in the router history",
+      "author": "mario",
+      "id": 6
+    },
+    {
+      "title": "Going home",
+      "body": "This will take me home after submitting the form with the useHistory hook from the router",
+      "author": "mario",
+      "id": 7
     }
   ]
 }
